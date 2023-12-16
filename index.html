@@ -5,11 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tribute page tolinus Torvalds</title>
     <link rel="icon" type="image-x/ icon" href="images.jpeg">
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -24,14 +20,18 @@
         <br>
         <a href="#ach">go to Achievements</a>
     </nav>
-    
-    <figure>
-        <img src="Linus_Bhaya.jpeg">
-        <figcaption>A photogragh of Linus Tovalds</figcaption>
-    </figure>
+    <div class="row">
+        <figure class="column">
+            <img src="Linus_Bhaya.jpeg">
+            <figcaption>A photogragh of Linus Tovalds</figcaption>
+        </figure>
+        <figure class="column">
+            <img id="linus" src="linus.jpg" alt="linus">
+        </figure>
+    </div>
     <section>
     <h2 id="bio">Biography</h2>
-    <p>
+    <p id="italic">
         Linus Torvalds is a Finnish-American software engineer who is the creator and principal developer of the Linux kernel, which is the kernel for a number of operating systems. He also created the version control system Git. Torvalds was born on December 28, 1969 in Helsinki, Finland. He studied computer science at the University of Helsinki, and he developed the Linux kernel as a student project in 1991. Since then, the Linux kernel has become one of the most widely used kernels in the world, powering everything from smartphones to supercomputers.
     </p>
     </section>

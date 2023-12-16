@@ -1,0 +1,29 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#italic{
+    font-style: italic;
+}
+
+img{
+    display: inline;
+}
+
+#linus {
+    height: 350px;
+    width: 350px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+  
+  /* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
